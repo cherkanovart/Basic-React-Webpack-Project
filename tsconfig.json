@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitOverride": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "module": "ES2022",
+    "moduleResolution": "node",
+
+    "target": "ES2022",
+    "jsx": "react-jsx",
+
+    "allowJs": true,
+    "checkJs": true,
+
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/**/*", "./custom.d.ts"],
+  "exclude": ["node_modules"]
+}
